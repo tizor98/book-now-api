@@ -1,0 +1,22 @@
+{
+  "name": "book-rental-api",
+  "version": "1.0.0",
+  "author": "Alberto Ortiz <baortiz98@outlook.com>",
+  "description": " Serverless REST api for renting books using Azure Functions with TypeScript",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prestart": "npm run build",
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "devDependencies": {
+    "@azure/functions": "^3.0.0",
+    "@types/jest": "^29.4.0",
+    "@types/node": "16.x",
+    "azure-functions-core-tools": "^4.x",
+    "jest": "^29.4.3",
+    "ts-jest": "^29.0.5",
+    "typescript": "^4.0.0"
+  }
+}
