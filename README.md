@@ -30,7 +30,7 @@ The following are the features that will be completed first:
 
 ---
 
-## Tecnologies used
+## Technologies used
 
 |  Tecnology  |  Version |
 | ------------ | ------------ |
